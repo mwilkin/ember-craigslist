@@ -1,2 +1,5 @@
 <h1>{{model.name}}</h1>
 {{new-listing-form saveListingToFirebase="saveListingToFirebase" category=model}}
+{{#each model.listings as |listing|}}
+  {{listing-tile listing=listing}}
+{{/each}}
