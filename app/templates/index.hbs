@@ -1,1 +1,4 @@
 {{new-category-form saveCategoryToFirebase="saveCategoryToFirebase"}}
+{{#each model.categories as |category|}}
+  {{category-link category=category}}
+{{/each}}
