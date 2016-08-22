@@ -12,7 +12,12 @@ module.exports = function(environment) {
         // e.g. 'with-controller': true
       }
     },
-
+    firebase: {
+      apiKey: "AIzaSyCqRzxToOb9l1vucCFx7o07JRXeSkZcOco",
+      authDomain: "ember-craigslist-ec482.firebaseapp.com",
+      databaseURL: "https://ember-craigslist-ec482.firebaseio.com",
+      storageBucket: "",
+    },
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
