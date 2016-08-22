@@ -12,7 +12,7 @@ export default Ember.Route.extend({
       newListing.save().then(function() {
         return category.save();
       });
-      this.transitionTo('index');
+      // this.transitionTo('index');
     }
   }
 });
