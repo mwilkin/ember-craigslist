@@ -1,5 +1,6 @@
-{{new-category-form saveCategoryToFirebase="saveCategoryToFirebase"}}
-{{#each model.categories as |category|}}
-  {{category-link category=category}}
-{{/each}}
-{{moment-from-now 1471898627973 interval=1000}}
+<div class="container">
+  {{new-category-form saveCategoryToFirebase="saveCategoryToFirebase"}}
+  {{#each model.categories as |category|}}
+    {{category-link category=category}}
+  {{/each}}
+</div>

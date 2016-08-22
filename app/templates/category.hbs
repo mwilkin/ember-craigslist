@@ -1,3 +1,6 @@
-<h1>{{model.name}}</h1>
-{{new-listing-form saveListingToFirebase="saveListingToFirebase" category=model}}
-{{listing-list listings=model.listings}}
+<div class="container">
+  <h1>{{model.name}}</h1>
+  {{new-listing-form saveListingToFirebase="saveListingToFirebase" category=model}}
+  <hr>
+  {{listing-list listings=model.listings}}
+</div>
